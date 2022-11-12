@@ -1,0 +1,225 @@
+@font-face {
+  font-family: SF Compact Display;
+  src: url('fonts/df30a426f04acfe1f73b.otf')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #DBEEEE;
+  display: flex;
+}
+
+p {
+  color: #3D9090;
+  font-size: 15px;
+  font-family: 'SF Compact Display'
+}
+main {
+  margin-left: 10vw;
+}
+
+.ease {
+  color: #3D9090;
+  margin: 30px;
+  width: 12vw;
+  height: 5vh
+}
+
+.info {
+  margin-bottom: 10px;
+  display: flex;
+  padding: 5px;
+  justify-content: end;
+  margin-right: 10vw;
+}
+
+.main-image {
+  width: 43vw;
+  height: 50vw;
+  border-radius: 10px;
+  margin-right: 5vw;
+  z-index: 1;
+}
+
+.wrapper_img {
+  position: absolute;
+  z-index: -2;
+  display: flex;
+}
+
+.wrapper_big-lamp {
+  position: absolute;
+}
+
+.show-img {
+  width: 20w;
+  height: 16vw;
+  margin-left: 10vw;
+}
+
+.wrapper {
+  margin: 0 0 0 auto;
+  position: relative;
+  width: 60%;
+}
+
+.info_collections, .info_contacts, .info_blog, .info_about {
+  margin: 10px;
+}
+
+
+.info_collections:hover, .info_contacts:hover, .info_blog:hover, .info_about:hover {
+  color: #1d4242;
+  transition: 0.7s;
+}
+
+.AddAllLamps {
+  width: 120px;
+  box-sizing: border-box;
+  margin: 0 0 0 auto;
+  margin-top: 20vh;
+}
+
+.LampList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #BDDDDD;
+  height:100%;
+  border-radius: 10px 0 0 0;
+}
+
+.big-lamp {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  justify-content: center;
+  display: flex;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.light-button, .dark-button {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.light-button {
+  background: #fdf3dd;
+  border-radius: 0 0 0 10px;
+}
+
+.wrapper_info {
+  width: 30vw;
+}
+
+.wrapper_info p {
+  color: #333;
+  margin-left: 30px;
+}
+
+.wrapper_lamp-description {
+  position: relative;
+  background: #E4D7B9;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  left: -20px;
+  top: 10vh
+}
+
+.wrapper_lamp-description p {
+  color: #333;
+  position: relative;
+  left: 45px;
+  top: 50px;
+  margin-top: 16px;
+}
+
+.div-inf {
+  display: flex;
+}
+
+.div-inf p {
+  margin-left: 3px;
+}
+
+.p-inf, .info p {
+  font-weight: 900;
+}
+
+.no-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle-13 {
+  padding-left: 20%;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  height: 1px;
+  position: absolute;
+  background: #a3a3a3;
+  z-index: -2;
+  margin-top: 40px;
+}
+
+.show-lamp-main-image {
+  width: 8vw;
+  height: 45vh;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1245px){
+  .AddAllLamps {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (max-width: 1226px){
+  .rectangle-13 {
+    padding-left: 25%;
+  }
+}
+
+@media screen and (max-width: 1226px){
+  .AddAllLamps {
+    margin-top: 19vh;
+  }
+
+  .big-lamp {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 1083px){
+  .AddAllLamps {
+    margin-top: 14vh;
+  }
+
+  .show-lamp-main-image {
+    width: 8vw;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 1052px){
+  .rectangle-13 {
+    padding-left: 27%;
+  }
+}
